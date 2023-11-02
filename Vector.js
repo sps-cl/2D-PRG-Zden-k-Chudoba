@@ -10,8 +10,8 @@ class Vector {
     }
 
     substract(other) {
-        this.x += other.x;
-        this.y += other.y;
+        this.x -= other.x;
+        this.y -= other.y;
     }
 
     sum(other) {
