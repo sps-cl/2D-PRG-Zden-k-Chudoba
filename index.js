@@ -34,7 +34,7 @@ function onObstacle1Exit() {
 }
 obstacle1.onSceneExit = onObstacle1Exit;
 function onObstacle2Exit() {
-    obstacle2 = randomObstacle(scene.width * 1.5);
+    obstacle2 = randomObstacle(scene.width);
     obstacle2.onSceneExit = onObstacle2Exit;
 }
 obstacle2.onSceneExit = onObstacle2Exit;

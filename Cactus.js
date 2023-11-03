@@ -7,6 +7,10 @@ class Cactus extends GameObject {
     }
   
     move() {
-      this.position.x -= this.speed;
+      super.move();
+      if (this.collider.rightEdge < this.minBounds.x) {
+        this.onSceneExit();
+      }
     }
+
 }

@@ -13,4 +13,4 @@ class Score extends Positionable {
       context.font = this.font;
       context.fillText(this.value, this.x, this.y);
     }
-  }
+}
